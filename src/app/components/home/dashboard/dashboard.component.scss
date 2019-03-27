@@ -1,0 +1,16 @@
+.button-create-user{
+    float:right;
+    margin : 10px 0px;
+}
+
+.userForm-control-danger, .form-control-feedback{
+    border-color: red;
+}
+
+.allowed {
+    cursor: pointer
+}
+
+.not-allowed {
+    cursor: not-allowed
+}

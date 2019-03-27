@@ -1,0 +1,26 @@
+
+.sidebar-text {
+    font-size: 1em;
+    color: grey;
+  }
+  
+  .sidebar-icon {
+    color: grey;
+  }
+  
+  .sidebar-component-container {
+      padding: 10px;
+      cursor: pointer
+  }
+  
+  .sidebar-component-container:hover, .sidebar-component-container-acive{
+      background:red;
+  }
+  
+  
+  .sidebar-component-container:hover .sidebar-icon, 
+  .sidebar-component-container:hover .sidebar-text, 
+  .sidebar-component-container-acive .sidebar-text,
+  .sidebar-component-container-acive .sidebar-icon {
+      color : white
+  }

@@ -1,0 +1,10 @@
+<div *ngFor="let element of siderbarComponents" (click)="menuItemChanged(element)" style="padding:5px 0px">
+  <div [ngClass]="{'sidebar-component-container-acive': element?.active}" class="sidebar-component-container">
+    <span class="mx-2">
+      <i [class]="element?.iconClass" aria-hidden="true"></i>
+    </span>
+    <span class="sidebar-text mx-1">
+      {{element?.name}}
+    </span>
+  </div>
+</div>
